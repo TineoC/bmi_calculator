@@ -242,7 +242,7 @@ class _MyHomePageState extends State<InputPage> {
             ),
           ),
           BottomButton(
-            buttonTitle: 'CALCULAR',
+            buttonTitle: 'CALCULATE',
             onTap: () {
               CalculatorBrain calc =
                   CalculatorBrain(height: height, weight: weight);

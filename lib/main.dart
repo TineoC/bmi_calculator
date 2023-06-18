@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'BMI Calculator APP',
       theme: ThemeData.dark().copyWith(
-          scaffoldBackgroundColor: const Color(0xFF0A0E21),
+          // scaffoldBackgroundColor: const Color(0xFF0A0E21),
           appBarTheme: const AppBarTheme(
               backgroundColor: Color(0xFF0A0E21), centerTitle: true)),
       home: const InputPage(title: 'BMI Calculator'),
